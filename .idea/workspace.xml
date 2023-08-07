@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d50d8e18-a0fd-450a-835d-0b5aea5e7d6b" name="Changes" comment="Fix Version 3.5">
+      <change afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Ip.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Security.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Ban_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Limit_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Security_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Limit/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Limit/ban.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Security/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Security/ip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Controllers/Api.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Controllers/Documents.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Documents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Controllers/Edituser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Edituser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Controllers/Fixer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Fixer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Controllers/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Controllers/Jub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Controllers/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Controllers/Managers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Managers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Controllers/Online.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Online.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Controllers/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Controllers/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Controllers/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Libs/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Libs/Bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Libs/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Libs/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Libs/lang/en-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Libs/lang/en-us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Libs/lang/fa-ir.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Libs/lang/fa-ir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Models/Api_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Api_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Models/Edituser_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Edituser_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Models/Fixer_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Fixer_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Models/Index_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Index_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Models/Login_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Login_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Models/Managers_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Managers_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Models/Permission_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Permission_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Models/Reinstall_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Reinstall_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Models/Settings_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Settings_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Models/Users_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Models/Users_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Index/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Index/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Login/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Login/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Managers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Managers/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/backup.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/backup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/block.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/chengepass.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/chengepass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/fakeaddress.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/fakeaddress.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/sshport.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/sshport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/telegram.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/telegram.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Settings/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Users/edituser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Users/edituser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/Views/Users/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/Views/Users/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Panel/cp/assets/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web Panel/cp/assets/js/config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alireza &lt;127631174+alirezad07@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QDDq6sr2lyuyL2QzDq5eB757Jf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Xcs-Multi-Management-XPanel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/WebPanel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d50d8e18-a0fd-450a-835d-0b5aea5e7d6b" name="Changes" comment="" />
+      <created>1684879446141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684879446141</updated>
+      <workItem from="1684879447595" duration="5392000" />
+      <workItem from="1684953996179" duration="7251000" />
+      <workItem from="1685213214947" duration="590000" />
+      <workItem from="1685471577221" duration="1915000" />
+      <workItem from="1685656452023" duration="561000" />
+      <workItem from="1685660101165" duration="1168000" />
+      <workItem from="1685862743562" duration="592000" />
+      <workItem from="1685994314765" duration="23702000" />
+      <workItem from="2064859571877" duration="18883000" />
+      <workItem from="1686390666138" duration="5579000" />
+      <workItem from="1686400937947" duration="13755000" />
+      <workItem from="1686728134874" duration="7530000" />
+      <workItem from="1686827378337" duration="591000" />
+      <workItem from="1686908341776" duration="34384000" />
+      <workItem from="1687039579749" duration="1331000" />
+      <workItem from="1687253508273" duration="6597000" />
+      <workItem from="1687300536212" duration="1981000" />
+      <workItem from="1687330983910" duration="22526000" />
+      <workItem from="1687433106873" duration="298000" />
+      <workItem from="1687468524940" duration="9356000" />
+      <workItem from="1687528107128" duration="2424000" />
+      <workItem from="1687599714300" duration="6975000" />
+      <workItem from="1687725963543" duration="13580000" />
+      <workItem from="1687818080763" duration="9209000" />
+      <workItem from="1687892729317" duration="18253000" />
+      <workItem from="1687988864979" duration="14504000" />
+      <workItem from="1688074770714" duration="13150000" />
+      <workItem from="1688156544041" duration="35239000" />
+      <workItem from="1688332222822" duration="19511000" />
+      <workItem from="1688361929092" duration="1729000" />
+      <workItem from="1688369677320" duration="2555000" />
+      <workItem from="1688424501097" duration="15113000" />
+      <workItem from="1688512799090" duration="16792000" />
+      <workItem from="1688603104123" duration="63677000" />
+      <workItem from="1688799649140" duration="17497000" />
+    </task>
+    <task id="LOCAL-00029" summary="Fix BUG Version 3.2">
+      <created>1686397166112</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686397166112</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Fix BUG Version 3.2">
+      <created>1686398799149</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686398799149</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fix BUG Version 3.2">
+      <created>1686408194326</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1686408194326</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Fix BUG Version 3.2">
+      <created>1686408315159</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686408315159</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Fix BUG Version 3.2">
+      <created>1686408622056</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1686408622056</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fix BUG Version 3.2">
+      <created>1686408974302</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686408974302</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Fix BUG Version 3.2">
+      <created>1686646783606</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1686646783607</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Fix BUG Version 3.2">
+      <created>1686650733784</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1686650733784</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Fix BUG Version 3.2">
+      <created>1686653198036</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1686653198036</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Fix BUG Version 3.2">
+      <created>1686653547698</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1686653547698</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Fix BUG Version 3.2">
+      <created>1686653626382</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1686653626382</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Fix BUG Version 3.2">
+      <created>1686659489636</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1686659489636</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Fix BUG Version 3.2">
+      <created>1686659591052</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1686659591052</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Fix BUG Version 3.2">
+      <created>1686659661623</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1686659661623</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Fix BUG Version 3.2">
+      <created>1686660446787</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1686660446787</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Fix BUG Version 3.2">
+      <created>1686665551459</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1686665551459</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Fix BUG Version 3.2">
+      <created>1686741323610</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1686741323610</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Fix Version 3.3">
+      <created>1686741880929</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1686741880929</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Fix Version 3.3">
+      <created>1686745979951</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1686745979951</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Fix Version 3.3">
+      <created>1686746276985</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1686746276985</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Fix Version 3.3">
+      <created>1686746732230</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1686746732230</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Fix Version 3.3">
+      <created>1686922288666</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1686922288666</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Fix Version 3.4">
+      <created>1686932719934</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1686932719934</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Fix Version 3.4">
+      <created>1686932835152</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1686932835152</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Fix Version 3.4">
+      <created>1686932891858</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1686932891858</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Fix Version 3.4">
+      <created>1686934704358</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1686934704358</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Fix Version 3.4">
+      <created>1686942102809</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1686942102809</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Fix Version 3.4">
+      <created>1686945829515</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1686945829515</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Fix Version 3.4">
+      <created>1686953410441</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1686953410441</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Fix Version 3.4">
+      <created>1686957209981</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1686957209981</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Fix Version 3.4">
+      <created>1686957229156</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1686957229156</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Fix Version 3.4">
+      <created>1686957247421</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1686957247421</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Fix Version 3.4">
+      <created>1686957538710</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1686957538710</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Fix Version 3.4">
+      <created>1687603561641</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1687603561641</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Fix Version 3.4">
+      <created>1687603755166</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1687603755166</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Fix Version 3.4">
+      <created>1687604931796</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1687604931796</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Fix Version 3.4">
+      <created>1687605155063</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1687605155063</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Fix Version 3.4">
+      <created>1687726688486</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1687726688486</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Fix Version 3.4">
+      <created>1687726978805</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1687726978805</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Fix Version 3.4">
+      <created>1688619604631</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1688619604631</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Fix Version 3.5">
+      <created>1688624202160</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1688624202160</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Fix Version 3.5">
+      <created>1688624482740</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1688624482740</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Fix Version 3.5">
+      <created>1688626717198</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1688626717198</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Fix Version 3.5">
+      <created>1688626776883</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1688626776883</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Fix Version 3.5">
+      <created>1688626837256</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1688626837256</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Fix Version 3.5">
+      <created>1688627037895</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1688627037895</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Fix Version 3.5">
+      <created>1688636803226</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1688636803226</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Fix Version 3.5">
+      <created>1688637148001</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1688637148002</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Fix Version 3.5">
+      <created>1688638683901</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1688638683901</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADD web panel open source" />
+    <MESSAGE value="fix bug" />
+    <MESSAGE value="Fix Alert New Version" />
+    <MESSAGE value="Fix New Version 3.2" />
+    <MESSAGE value="Fix BUG Version 3.2" />
+    <MESSAGE value="Fix Version 3.3" />
+    <MESSAGE value="Fix Version 3.4" />
+    <MESSAGE value="Fix Version 3.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Version 3.5" />
+  </component>
+</project>
