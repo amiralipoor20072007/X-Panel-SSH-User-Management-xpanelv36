@@ -57,7 +57,7 @@ echo -e "  6)XPanel v2.8"
 echo -ne "${GREEN}\nSelect Version : ${ENDCOLOR}" ;read n
 if [ "$n" != "" ]; then
 if [ "$n" == "1" ]; then
-linkd=https://api.github.com/repos/amiralipoor20072007/X-Panel-SSH-User-Management-xpanelv36/releases/tags/xpanelv34
+linkd=https://api.github.com/repos/amiralipoor20072007/X-Panel-SSH-User-Management-xpanelv36/releases/tags/xpanelv36
 fi
 if [ "$n" == "2" ]; then
 linkd=https://api.github.com/repos/amiralipoor20072007/X-Panel-SSH-User-Management-xpanelv36/releases/tags/xpanelv31
@@ -72,7 +72,7 @@ if [ "$n" == "5" ]; then
 linkd=https://api.github.com/repos/amiralipoor20072007/X-Panel-SSH-User-Management-xpanelv36/releases/tags/xpanelv28
 fi
 else
-linkd=https://api.github.com/repos/amiralipoor20072007/X-Panel-SSH-User-Management-xpanelv36/releases/tags/xpanelv34
+linkd=https://api.github.com/repos/amiralipoor20072007/X-Panel-SSH-User-Management-xpanelv36/releases/tags/xpanelv36
 fi
 
 if [ "$dmp" != "" ]; then
